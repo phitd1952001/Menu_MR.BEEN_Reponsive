@@ -1,0 +1,91 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .nav-link {
+        margin-left: 8px;
+        border: .125rem solid var(--primary-color);
+        border-radius: 1.25rem;
+        color: var(--black-color)!important;
+    }
+    .dropdown-menu {
+        margin-left: -5px;
+        padding: 0px;
+        color: var(--white) !important;
+        background-color: var(--primary-color) !important
+    }
+    .dropdown-item {
+        margin-top: 10px auto;
+        padding: 10px auto;
+        justify-content: center;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        color: var(--white);
+        transition: 0.5s ease-in-out;
+        border: .125rem solid var(--white) !important;
+    }
+    .dropdown-item:hover {
+        color: var(--primary-color) !important;
+        background-color: var(--white) !important;
+    }
+    .navbar-menu {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Navbar-Logo {
+        margin-left: -10px;
+    }
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .nav-link {
+        margin-left: 30px;
+        color: var(--black-color)!important;
+    }
+    .dropdown-menu {
+        margin-left: 12px;
+        padding: 0px;
+        color: var(--white) !important;
+        background-color: var(--primary-color) !important
+    }
+    .dropdown-item {
+        margin-top: 10px auto;
+        padding: 10px auto;
+        justify-content: center;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        color: var(--white);
+        transition: 0.5s ease-in-out;
+        border: .125rem solid var(--white) !important;
+    }
+    .dropdown-item:hover {
+        color: var(--primary-color) !important;
+        background-color: var(--white) !important;
+    }
+    .navbar-menu {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 250px;
+    }
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

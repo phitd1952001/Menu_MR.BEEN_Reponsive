@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #FF0000;
+    --background-color: #FFFFFF;
+    --secondary-color: #FFFF33;
+    --grey: #AAAAAA;
+    --white: white;
+    --pink: #FF66FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*html,
+body {
+    /* chon mau nen */
+    background-color: var(--background-color);
+    /* thanh cuon xuong kh anh huonh */
+    scroll-behavior: smooth;
+    /* so sanh voi lai vi tri ban dau */
+    position: relative;
+    /* cho phep cac chu trong hop kh tran ra ngoai */
+    overflow-x: hidden;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+/* navbar */
+
+.Navbar-Logo {
+    font-size: 60px;
+    color: var(--primary-color) !important;
+    font-weight: 800;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.cart-btn {
+    /* chieu rong, chieu cao */
+    width: 3rem;
+    height: 3rem;
+    /* cho no nam giua cai o vuong */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* kich thuoc */
+    font-size: 2.5rem;
+    /* con chuot bien thanh canh tay */
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    /* hieu ung nhe nhang dua vao va nhe nhang dua */
+    transition: 0.5 ease-in-out;
+}
+
+.cart-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+.background-color-navbar {
+    background-color: var(--white) !important;
+}
+
+.margin-top-bottom-navbar {
+    margin: -1.5rem auto;
+}
